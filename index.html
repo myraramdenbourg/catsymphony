@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My webpage!</title>
+    <title>Cat Symphony!</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <script async src="./javascript/index.js"></script>
+    <style>
+        #draggable { width: 100px; height: 100px; padding: 0em; }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#draggable1" ).draggable();
+            $( "#draggable2" ).draggable();
+            $( "#draggable3" ).draggable();
+            $( "#draggable4" ).draggable();
+            $( "#draggable5" ).draggable();
+            $( "#draggable6" ).draggable();
+            $( "#draggable7" ).draggable();
+            $( "#draggable8" ).draggable();
+            $( "#draggable9" ).draggable();
+            $( "#draggable10" ).draggable();
+
+
+
+        } );
+    </script>
 </head>
 <body>
 <h1>cat symphony</h1>
 <h4 id='date'></h4>
     <div>
         <div>
-            <IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat2.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat3.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat4.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat5.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat6.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat7.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat8.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat9.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            <IMG SRC="./images/cat10.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            <div id ="draggable1" class="ui-widget-content">
+                <IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable2" class="ui-widget-content">
+                <IMG SRC="./images/cat2.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable3" class="ui-widget-content">
+                <IMG SRC="./images/cat3.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable4" class="ui-widget-content">
+                <IMG SRC="./images/cat4.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable5" class="ui-widget-content">
+                <IMG SRC="./images/cat5.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable6" class="ui-widget-content">
+                <IMG SRC="./images/cat6.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable7" class="ui-widget-content">
+                <IMG SRC="./images/cat7.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable8" class="ui-widget-content">
+                <IMG SRC="./images/cat8.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable9" class="ui-widget-content">
+                <IMG SRC="./images/cat9.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
+            <div id ="draggable10" class="ui-widget-content">
+                <IMG SRC="./images/cat10.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+            </div>
         </div>
     </div>
 </body>
