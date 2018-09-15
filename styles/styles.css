@@ -2,3 +2,43 @@ body {
     text-align: center;
     background-color: #f0e8c5;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#draggable1 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable2 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable3 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable4 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable5 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable6 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable7 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable8 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable9 {
+        display:inline-block; vertical-align:text-top
+}
+#draggable10 {
+        display:inline-block; vertical-align:text-top
+}
