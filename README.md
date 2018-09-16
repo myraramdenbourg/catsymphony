@@ -1,3 +1,3 @@
 # catsymphony
-a symphony of cats
+a symphony of cats,
 catsymphony.com
