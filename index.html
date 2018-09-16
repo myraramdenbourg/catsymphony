@@ -4,13 +4,13 @@
     <title>Cat Symphony</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <script async src="./javascript/index.js"></script>
-    <style>
-        #draggable { width: 100px; height: 100px; padding: 0em; }
-    </style>
+    <!--<style>-->
+        <!--#draggable { width: 100px; height: 100px; padding: 0em; }-->
+    <!--</style>-->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
-        $( function() {
+        $(function() {
             $( "#draggable1" ).draggable();
             $( "#draggable2" ).draggable();
             $( "#draggable3" ).draggable();
@@ -21,10 +21,7 @@
             $( "#draggable8" ).draggable();
             $( "#draggable9" ).draggable();
             $( "#draggable10" ).draggable();
-
-
-
-        } );
+        });
     </script>
 
 </head>
@@ -35,42 +32,113 @@
         <div>
             <div id ="draggable1" class="ui-widget-content">
                 <!--<IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">-->
-                <audio id="audio" src="./audio/TomCat-Mr_Smith-2055290520.mp3" autostart="false" controls loop>
-                </audio>
-                    <IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound();"  />
+                <audio id="audio1" src="./audio/TomCat-Mr_Smith-2055290520.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick=playSound1();><img/>
                     <script>
-                        function playSound() {
-                            var sound = document.getElementById("audio");
+                    function playSound1(){
+                        const sound = document.getElementById("audio1");
+                        sound.play();
+                    }
+                    </script>
+            </div>
+
+            <div id ="draggable2" class="ui-widget-content">
+                <audio id="audio2" src="./audio/Pearl%20the%20Singing%20Cat%20meows%20Unchained%20melody.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat2.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound2();"/>
+                    <script>
+                        function playSound2() {
+                            var sound = document.getElementById("audio2");
                             sound.play();
                         }
                     </script>
             </div>
-            <div id ="draggable2" class="ui-widget-content">
-                <IMG SRC="./images/cat2.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
-            </div>
+
             <div id ="draggable3" class="ui-widget-content">
-                <IMG SRC="./images/cat3.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio3" src="./audio/Cat%20Meowing-SoundBible.com-781322082.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat3.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound3();"/>
+                    <script>
+                        function playSound3() {
+                            var sound = document.getElementById("audio3");
+                            sound.play();
+                        }
+                    </script>
             </div>
+
             <div id ="draggable4" class="ui-widget-content">
-                <IMG SRC="./images/cat4.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio4" src="./audio/Sir%20Meows%20A%20Lot%20Sound%20Effect.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat4.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound4();"/>
+                    <script>
+                function playSound4() {
+                    var sound = document.getElementById("audio3");
+                    sound.play();
+                }
+            </script>
             </div>
+
             <div id ="draggable5" class="ui-widget-content">
-                <IMG SRC="./images/cat5.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio5" src="./audio/Cat%20sound%20effect%20meow.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat5.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound5();"/>
+                    <script>
+                function playSound5() {
+                    var sound = document.getElementById("audio5");
+                    sound.play();
+                }
+            </script>
             </div>
+
             <div id ="draggable6" class="ui-widget-content">
-                <IMG SRC="./images/cat6.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio6" src="./audio/Meow%20Mix®%20Song%20%20EDM%20Cat%20Remix%20by%20Ashworth.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat6.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound6();"/>
+                    <script>
+                function playSound6() {
+                    var sound = document.getElementById("audio6");
+                    sound.play();
+                }
+            </script>
             </div>
+
             <div id ="draggable7" class="ui-widget-content">
-                <IMG SRC="./images/cat7.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio7" src="./audio/Cat-meow-2.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat7.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound7();"  />
+                    <script>
+                function playSound7() {
+                    var sound = document.getElementById("audio7");
+                    sound.play();
+                }
+            </script>
             </div>
+
             <div id ="draggable8" class="ui-widget-content">
-                <IMG SRC="./images/cat8.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio8" src="./audio/Cat%20Meowing-SoundBible.com-781322082.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat8.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound8();"  />
+                    <script>
+                function playSound8() {
+                    var sound = document.getElementById("audio8");
+                    sound.play();
+                }
+            </script>
             </div>
+
             <div id ="draggable9" class="ui-widget-content">
-                <IMG SRC="./images/cat9.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio9" src="./audio/Big%20Cat%20Roar%20Sound%20Effect.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat9.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound9();"  />
+                    <script>
+                    function playSound9() {
+                    var sound = document.getElementById("audio9");
+                    sound.play();
+                    }
+                    </script>
             </div>
+
             <div id ="draggable10" class="ui-widget-content">
-                <IMG SRC="./images/cat10.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <audio id="audio10" src="./audio/Cat%20sound%20effect%20meow.mp3" autostart="false" controls loop></audio>
+                    <img src="./images/cat10.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound10();"  />
+                    <script>
+                function playSound10() {
+                    var sound = document.getElementById("audio10");
+                    sound.play();
+                }
+            </script>
             </div>
         </div>
     </div>
