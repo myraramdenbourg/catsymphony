@@ -1,2 +1,2 @@
-# catsymphony1
+# catsymphony
 a symphony of cats
