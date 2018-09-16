@@ -26,6 +26,7 @@
 
         } );
     </script>
+
 </head>
 <body>
 <h1>cat symphony</h1>
@@ -33,7 +34,16 @@
     <div>
         <div>
             <div id ="draggable1" class="ui-widget-content">
-                <IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
+                <!--<IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">-->
+                <audio id="audio" src="./audio/TomCat-Mr_Smith-2055290520.mp3" autostart="false" controls loop>
+                </audio>
+                    <IMG SRC="./images/cat1.jpeg" ALT="Happy Cat" WIDTH="100" HEIGHT="100" onclick="playSound();"  />
+                    <script>
+                        function playSound() {
+                            var sound = document.getElementById("audio");
+                            sound.play();
+                        }
+                    </script>
             </div>
             <div id ="draggable2" class="ui-widget-content">
                 <IMG SRC="./images/cat2.jpg" ALT="Happy Cat" WIDTH="100" HEIGHT="100">
@@ -67,5 +77,6 @@
     <div>
         <hr/>
     </div>
+
 </body>
 </html>
